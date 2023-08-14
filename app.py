@@ -48,5 +48,9 @@ def display_image(filename):
 def ppt():
     return render_template('ppt.html')
 
+@app.route('/confpaper', methods=['GET'])
+def confpaper():
+    return render_template('confpaper.html')
+
 if __name__ == "__main__":
     app.run(host= '0.0.0.0')
