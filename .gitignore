@@ -7,3 +7,4 @@ notes/
 .idea/
 dump/
 venv/
+static/upload
